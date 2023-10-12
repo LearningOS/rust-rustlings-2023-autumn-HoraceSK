@@ -83,8 +83,8 @@ Basically: Clone the repository at the latest tag, run `cargo install --path .`.
 
 ```bash
 # find out the latest version at https://github.com/rust-lang/rustlings/releases/latest (on edit 5.5.1)
-git clone -b 5.5.1 --depth 1 https://github.com/rust-lang/rustlings
-cd rustlings
+git clone -b 5.5.1 --depth 1 https://github.com/LearningOS/rust-rustlings-2023-autumn-HoraceSK.git
+cd rust-rustlings-2023-autumn-HoraceSK
 cargo install --force --path .
 ```
 
