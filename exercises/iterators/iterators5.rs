@@ -10,6 +10,17 @@
 //
 // Execute `rustlings hint iterators5` or use the `hint` watch subcommand for a
 // hint.
+// This the core trait of iterator:
+// trait Iterator {
+    // type Item;
+    // fn next(&mut self) -> Option<Self::Item>;
+// }
+// There are three common methods which can create iterators from a collection:
+//
+    // iter(), which iterates over &T.
+    // iter_mut(), which iterates over &mut T.
+    // into_iter(), which iterates over T.
+//
 
 // I AM NOT DONE
 
